@@ -1,7 +1,7 @@
 {
   "name": "Save Restricted Content Bot master-v1 branch",
-  "description": "Save Restricted Content Bot by Team SPY",
-  "logo": "https://lh3.googleusercontent.com/-HPcn7AqepNg/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfknb1BkQiq-8_KUVOYcNAJ4swKivDQ/photo.jpg",
+  "description": "Save Restricted Content Bot by KING PROJECT",
+  "logo": "https://telegra.ph/file/32f106d692ff33700c464.jpg",
   "keywords": ["python3", "telegram", "MusicBot", "telegram-bot", "pyrogram"],
   "repository": "https://github.com/devgaganin/save_restricted-content-telegram-bot-repo",
   "success_url": "https://devgagan.in",
@@ -38,13 +38,13 @@
     },
     "PREMIUM_LIMIT": {
       "description": "Batch size for premium users",
-      "value": "500",
+      "value": "5000",
       "required": true
     },
     "STRING": {
       "description": "Enter premium account session string if you want to allow the paid users to upload upto 4GB",
       "value": "",
-      "required": false
+      "required": true
     },
 
     "DEFAULT_SESSION": {
@@ -55,7 +55,7 @@
     
     "WEBSITE_URL": {
       "description": "Enter shortener website domain eg upshrink.com",
-      "value": "upshrink.com",
+      "value": "modijiurl.com",
       "required": false
     },
     "AD_API": {
