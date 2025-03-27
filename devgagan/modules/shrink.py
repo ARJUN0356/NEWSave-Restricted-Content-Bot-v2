@@ -73,7 +73,7 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://telegra.ph/file/32f106d692ff33700c464.jpg"
+        image_url = "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22VID_20250327_143326_311.mp4%22%2C%22type%22%3A%22video%2Fmp4%22%2C%22signedurl_expire%22%3A%222028-03-26T09%3A03%3A40.013Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F0827ac5ff30c45c7%2FVID_20250327_143326_311.mp4%3FExpires%3D1837674220%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DU-Qchat2Ea1GDLax0mlnEKhfbTQskP292jXk6wcWoGX7hj~4OKzeyZJ08yKEjLT22fddGbNTQXl9bhqumNBA5ZVb19sNyYiRiXODfzfaNqTbif2zlCVvNzqlDAEuTcqTs6hPyoclRdEwDlNkwsycId-0YX2xxPK23y6Pz51NxSqNx8F3vq18GHFsYkisctx39KEcnUoTDB8PLHJHF9ZwC4114UOQRImo1OE28bIcSgHP1is3ZO8W86dgNqNCGuBUKcwz93K5ZwMWtWggcHso1PagY7bOvvSFf9Reh6HHu0WU5DoMuiETMgi~zbxPHXvm0cAuY5tbgGWQFTAKUDqPrw__%22%7D"
         join_button = InlineKeyboardButton("Join Channel", url="https://t.me/premiumKingProjects")
         premium = InlineKeyboardButton("Get Premium", url="https://t.me/PremiumThoughtsBot")   
         keyboard = InlineKeyboardMarkup([
